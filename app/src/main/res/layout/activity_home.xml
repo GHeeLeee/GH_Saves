@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/Home_btn"
+        android:layout_width="136"
+        android:layout_height="100"
+        android:text=""
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="641dp"
+        android:gravity="bottom|center_horizontal"
+        android:drawableTop="@drawable/Home" />
+
+    <Button
+        android:id="@+id/Movie_btn"
+        android:layout_width="136"
+        android:layout_height="100dp"
+        android:text=""
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="641dp"
+        android:gravity="bottom|center_horizontal"
+        android:drawableTop="@drawable/Movie" />
+
+    <Button
+        android:id="@+id/My_btn"
+        android:layout_width="136"
+        android:layout_height="100"
+        android:text=""
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="641dp"
+        android:gravity="bottom|center_horizontal"
+        android:drawableTop="@drawable/My" />
+
+    <View
+        android:id="@+id/MovieLine"
+        android:layout_width="390"
+        android:layout_height="3dp"
+        android:background="#5A5A5A"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <HorizontalScrollView
+        android:layout_width="409dp"
+        android:layout_height="230"
+        android:background="#5A5A5A"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="92dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:layout_width="409"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLine="1"
+                android:scrollHorizontally="false"
+                android:text="인기 영화"
+                android:textColor="#FFFFFF"
+                android:textSize="32sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:background="#D9D9D9" />
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="12dp"
+                    android:background="#D9D9D9" />
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="12dp"
+                    android:background="#D9D9D9" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/Movietext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="예메한 영화"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <ImageView
+        android:id="@+id/Profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_heigth="150dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/Profile"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/Name1"
+        android:layout_width="180"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="게스트"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/Name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="님"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="237dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="396dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
