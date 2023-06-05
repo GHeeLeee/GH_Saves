@@ -11,42 +11,47 @@
         android:id="@+id/movie_btn"
         android:layout_width="136"
         android:layout_height="100dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="9dp"
         android:drawableTop="@drawable/Movie"
         android:gravity="bottom|center_horizontal"
         android:text=""
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="641dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
 
     <Button
         android:id="@+id/home_btn"
         android:layout_width="136"
         android:layout_height="100"
+        android:layout_marginTop="9dp"
         android:drawableTop="@drawable/Home"
         android:gravity="bottom|center_horizontal"
         android:text=""
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="641dp" />
+        app:layout_constraintStart_toEndOf="@+id/movie_btn"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
 
     <Button
         android:id="@+id/my_btn"
         android:layout_width="136"
         android:layout_height="100"
+        android:layout_marginTop="9dp"
         android:drawableTop="@drawable/My"
         android:gravity="bottom|center_horizontal"
         android:text=""
-        tools:layout_editor_absoluteX="274dp"
-        tools:layout_editor_absoluteY="641dp" />
+        app:layout_constraintStart_toEndOf="@+id/home_btn"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="409"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         android:text="내정보"
         android:textColor="#000000"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="10dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <ImageView
@@ -54,71 +59,88 @@
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_heigth="150dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="37dp"
         android:background="#FFFFFF"
         android:src="@drawable/Profile"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="85dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/name"
         android:layout_width="180"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="61dp"
         android:gravity="right"
-        android:text="게스트"
+        android:text="TextView"
         android:textColor="#000000"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="109dp" />
+        app:layout_constraintStart_toEndOf="@+id/profile"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/name2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="61dp"
         android:text="님"
         android:textColor="#000000"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="328dp"
-        tools:layout_editor_absoluteY="109dp" />
+        app:layout_constraintStart_toEndOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <View
         android:id="@+id/informationLine"
         android:layout_width="390"
         android:layout_height="3dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="43dp"
         android:background="#A8A4A4"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="218dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile" />
 
     <View
         android:id="@+id/movieLine"
         android:layout_width="390"
         android:layout_height="3dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
         android:background="#A8A4A4"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="313dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/informationtext" />
 
     <TextView
         android:id="@+id/movietext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
         android:text="예메한 영화"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="333dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieLine" />
 
     <TextView
         android:id="@+id/informationtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
         android:text="연동 정보"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="251dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/informationLine" />
 
     <ScrollView
+        android:id="@+id/scrollView3"
         android:layout_width="409dp"
         android:layout_height="256dp"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="376dp">
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movietext">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -130,7 +152,9 @@
         android:id="@+id/view"
         android:layout_width="98dp"
         android:layout_height="30dp"
-        tools:layout_editor_absoluteX="288dp"
-        tools:layout_editor_absoluteY="251dp" />
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toEndOf="@+id/informationtext"
+        app:layout_constraintTop_toBottomOf="@+id/informationLine" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

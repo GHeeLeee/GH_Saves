@@ -11,62 +11,74 @@
         style="@style/NoShadow"
         android:layout_width="24dp"
         android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:background="#FFFFFF"
         android:drawableLeft="@drawable/backbtn"
         android:text=""
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="409"
+        android:layout_width="320"
         android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         android:text="예매 영화 상세 정보"
         android:textColor="#000000"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="10dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/detailedview"
         android:layout_width="310dp"
         android:layout_height="420dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="21dp"
         android:background="#D9D9D9"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="69dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/movieText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="11dp"
         android:layout_weight="1"
         android:text="TextView"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="500dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailedview" />
 
     <Button
         android:id="@+id/Changebtn"
         android:layout_width="310dp"
         android:layout_height="47dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="47dp"
+        android:background="@drawable/button_patter_gray"
         android:text="좌석변경"
         android:textColor="#FFFFFF"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="574dp"
-        android:background="@drawable/button_patter_gray" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieText" />
 
     <Button
         android:id="@+id/Cancelbtn"
         android:layout_width="310dp"
         android:layout_height="47dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/button_patter_rad"
         android:text="예매 취소"
         android:textColor="#FFFFFF"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="635dp"
-        android:background="@drawable/button_patter_rad" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Changebtn" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

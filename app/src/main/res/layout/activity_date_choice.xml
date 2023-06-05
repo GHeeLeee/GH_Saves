@@ -6,4 +6,240 @@
     android:layout_height="match_parent"
     tools:context=".DateChoiceActivity">
 
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="98dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="30dp"
+        android:background="#D9D9D9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datetextView" />
+
+    <View
+        android:id="@+id/movieChoiceLine"
+        android:layout_width="390"
+        android:layout_height="3dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="36dp"
+        android:background="#A8A4A4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <TextView
+        android:id="@+id/datetextView"
+        android:layout_width="320"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="상영 시간 선택"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/datetextView2"
+        android:layout_width="87dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="날짜"
+        android:textColor="#5A5A5A"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieChoiceLine" />
+
+    <Button
+        android:id="@+id/back_btn"
+        style="@style/NoShadow"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/backbtn"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/choicemovietext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="51dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/datetextView" />
+
+    <TextView
+        android:id="@+id/choicemovietext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="12dp"
+        android:text="시간 :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/choicemovietext2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="86dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/choicemovietext2"
+        app:layout_constraintTop_toBottomOf="@+id/datetextView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/choicemovietext3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/choicemovietext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="11dp"
+        android:text="영화관 :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/choicemovietext" />
+
+    <TextView
+        android:id="@+id/moviedatetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="20dp"
+        android:text="2023"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/datetextView2"
+        app:layout_constraintTop_toBottomOf="@+id/movieChoiceLine" />
+
+    <TextView
+        android:id="@+id/moviedatetext2"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="6"
+        android:textColor="#5A5A5A"
+        android:textSize="28sp"
+        app:layout_constraintStart_toEndOf="@+id/moviedatetext"
+        app:layout_constraintTop_toBottomOf="@+id/movieChoiceLine" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="411dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="17dp"
+        android:background="#5A5A5A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datetextView2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/timebutton1"
+        android:layout_width="105dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="23dp"
+        android:background="#D1CFCF"
+        android:text="09:00"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/timebutton2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
+
+    <Button
+        android:id="@+id/timebutton2"
+        android:layout_width="105dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="23dp"
+        android:background="#D1CFCF"
+        android:text="12:00"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/timebutton3"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
+
+    <Button
+        android:id="@+id/timebutton3"
+        android:layout_width="105dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="25dp"
+        android:background="#D1CFCF"
+        android:text="15:00"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
+
+    <Button
+        android:id="@+id/timebutton4"
+        android:layout_width="105dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="23dp"
+        android:background="#D1CFCF"
+        android:text="18:00"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/timebutton2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
+
+    <Button
+        android:id="@+id/timebutton5"
+        android:layout_width="105dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="20dp"
+        android:background="#D1CFCF"
+        android:text="21:00"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/timebutton3"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
+
+    <Button
+        android:id="@+id/timebutton6"
+        android:layout_width="105dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="24dp"
+        android:background="#D1CFCF"
+        android:text="24:00"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

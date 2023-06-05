@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <View
+        android:id="@+id/loginLine"
+        android:layout_width="294dp"
+        android:layout_height="4dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="27dp"
+        android:background="#A8A4A4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logintextView" />
+
+    <TextView
+        android:id="@+id/logintextView"
+        android:layout_width="409"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:text="로그인"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/logintextView2"
+        android:layout_width="188dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:text="카카오 연동"
+        android:textColor="#B4A03B"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="154dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,43 +11,50 @@
         style="@style/NoShadow"
         android:layout_width="24dp"
         android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:background="#FFFFFF"
         android:drawableLeft="@drawable/backbtn"
         android:text=""
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="409"
+        android:layout_width="320"
         android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         android:text="지역 선택"
         android:textColor="#000000"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="10dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/AreaView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="20dp"
         android:text="시/도"
         android:textColor="#000000"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="68dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/btn1"
         android:layout_width="413dp"
         android:layout_height="67dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/btn_line"
         android:text="서울"
         android:textColor="#000000"
         android:textSize="26sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="138dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AreaView" />
 
     <Button
         android:id="@+id/btn2"
@@ -57,8 +64,8 @@
         android:text="경기도"
         android:textColor="#000000"
         android:textSize="26sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="204dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
 
     <Button
         android:id="@+id/btn3"
@@ -68,8 +75,8 @@
         android:text="인천"
         android:textColor="#000000"
         android:textSize="26sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="270dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn2" />
 
     <Button
         android:id="@+id/btn4"
@@ -79,8 +86,8 @@
         android:text="강원도"
         android:textColor="#000000"
         android:textSize="26sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="336dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn3" />
 
     <Button
         android:id="@+id/btn5"
@@ -90,8 +97,8 @@
         android:text="대전/충청"
         android:textColor="#000000"
         android:textSize="26sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="402dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn4" />
 
     <Button
         android:id="@+id/btn6"
@@ -101,8 +108,8 @@
         android:text="대구"
         android:textColor="#000000"
         android:textSize="26sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="468dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn5" />
 
     <Button
         android:id="@+id/btn7"
@@ -112,8 +119,8 @@
         android:text="부산/울산"
         android:textColor="#000000"
         android:textSize="26sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="534dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn6" />
 
     <Button
         android:id="@+id/btn8"
@@ -123,8 +130,8 @@
         android:text="경상"
         android:textColor="#000000"
         android:textSize="26sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="600dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn7" />
 
     <Button
         android:id="@+id/btn9"
@@ -134,7 +141,7 @@
         android:text="광주/전라/제주"
         android:textColor="#000000"
         android:textSize="26sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="666dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
