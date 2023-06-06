@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SeatChoiceActivity"></activity>
+        <activity android:name=".TheaterChoiceActivity"></activity>
+        <activity android:name=".CityChoiceActivity" />
+        <activity android:name=".SeatChoiceActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".AreaChoiceActivity" />
         <activity android:name=".DateChoiceActivity" />

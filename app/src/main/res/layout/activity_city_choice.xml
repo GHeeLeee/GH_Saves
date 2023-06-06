@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CityChoiceActivity">
+
+    <Button
+        android:id="@+id/back_btn3"
+        style="@style/NoShadow"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/backbtn"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="320"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="지역 선택"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/areaView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="24dp"
+        android:text="극장 지역"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="413dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_line2"
+        android:text="경기도"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/areaView" />
+
+    <Button
+        android:id="@+id/city_btn1"
+        android:layout_width="413dp"
+        android:layout_height="87dp"
+        android:background="@drawable/btn_line3"
+        android:text="광명역"
+        android:textColor="#777777"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn" />
+
+    <Button
+        android:id="@+id/city_btn2"
+        android:layout_width="413dp"
+        android:layout_height="87dp"
+        android:background="@drawable/btn_line3"
+        android:text="배곧"
+        android:textColor="#777777"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city_btn1" />
+
+    <Button
+        android:id="@+id/city_btn3"
+        android:layout_width="413dp"
+        android:layout_height="87dp"
+        android:background="@drawable/btn_line3"
+        android:text="시흥"
+        android:textColor="#777777"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city_btn2" />
+
+    <Button
+        android:id="@+id/city_btn4"
+        android:layout_width="413dp"
+        android:layout_height="87dp"
+        android:background="@drawable/btn_line3"
+        android:text="안산"
+        android:textColor="#777777"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city_btn3" />
+
+    <Button
+        android:id="@+id/city_btn5"
+        android:layout_width="413dp"
+        android:layout_height="87dp"
+        android:background="@drawable/btn_line3"
+        android:text="정왕"
+        android:textColor="#777777"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city_btn4" />
+
+    <Button
+        android:id="@+id/city_btn6"
+        android:layout_width="413dp"
+        android:layout_height="87dp"
+        android:background="@drawable/btn_line3"
+        android:text="평촌"
+        android:textColor="#777777"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city_btn5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
