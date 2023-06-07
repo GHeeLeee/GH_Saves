@@ -19,7 +19,7 @@
 
     <View
         android:id="@+id/movieChoiceLine"
-        android:layout_width="390"
+        android:layout_width="390dp"
         android:layout_height="3dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
@@ -29,7 +29,7 @@
 
     <TextView
         android:id="@+id/datetextView"
-        android:layout_width="320"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="10dp"

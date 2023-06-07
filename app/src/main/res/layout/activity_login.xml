@@ -18,7 +18,7 @@
 
     <TextView
         android:id="@+id/logintextView"
-        android:layout_width="409"
+        android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginTop="34dp"
@@ -38,5 +38,6 @@
         android:textColor="#B4A03B"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="154dp" />
+        tools:layout_editor_absoluteY="154dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

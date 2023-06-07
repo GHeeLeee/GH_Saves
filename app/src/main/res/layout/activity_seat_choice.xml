@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/datetextView3"
-        android:layout_width="320"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="10dp"

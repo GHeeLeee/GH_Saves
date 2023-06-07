@@ -4,42 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
+    tools:context="com.example.movie.HomeActivity">
 
     <Button
-        android:id="@+id/Home_btn1"
-        android:layout_width="136"
-        android:layout_height="100"
-        android:drawableTop="@drawable/Home"
+        android:id="@+id/home_btn"
+        android:layout_width="136dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/home_btn"
+        android:drawableTop="@drawable/home_btn"
         android:gravity="bottom|center_horizontal"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Movie_btn" />
+        app:layout_constraintStart_toEndOf="@+id/movie_btn" />
 
     <Button
-        android:id="@+id/Movie_btn"
-        android:layout_width="136"
+        android:id="@+id/movie_btn"
+        android:layout_width="136dp"
         android:layout_height="100dp"
         android:layout_marginStart="2dp"
-        android:drawableTop="@drawable/Movie"
+        android:contentDescription="@string/movie_btn"
+        android:drawableTop="@drawable/movie_btn"
         android:gravity="bottom|center_horizontal"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/My_btn"
-        android:layout_width="136"
-        android:layout_height="100"
-        android:drawableTop="@drawable/My"
+        android:id="@+id/my_btn"
+        android:layout_width="136dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/my_btn"
+        android:drawableTop="@drawable/my_btn"
         android:gravity="bottom|center_horizontal"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Home_btn1" />
+        app:layout_constraintStart_toEndOf="@+id/home_btn" />
 
     <View
-        android:id="@+id/MovieLine"
-        android:layout_width="390"
+        android:id="@+id/movieLine"
+        android:layout_width="390dp"
         android:layout_height="3dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="29dp"
@@ -50,12 +53,12 @@
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
         android:layout_width="409dp"
-        android:layout_height="230"
+        android:layout_height="230dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="16dp"
         android:background="#5A5A5A"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Profile">
+        app:layout_constraintTop_toBottomOf="@+id/profile">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -64,10 +67,9 @@
 
 
             <TextView
-                android:layout_width="409"
+                android:layout_width="409dp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:maxLine="1"
                 android:scrollHorizontally="false"
                 android:text="인기 영화"
                 android:textColor="#FFFFFF"
@@ -117,23 +119,22 @@
         android:text="예메한 영화"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/MovieLine" />
+        app:layout_constraintTop_toBottomOf="@+id/movieLine" />
 
     <ImageView
-        android:id="@+id/Profile"
+        android:id="@+id/profile"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_heigth="150dp"
         android:layout_marginStart="42dp"
         android:layout_marginTop="16dp"
         android:background="#FFFFFF"
-        android:src="@drawable/Profile"
+        android:src="@drawable/profile_btn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/Name1"
-        android:layout_width="180"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginTop="25dp"
@@ -141,7 +142,7 @@
         android:text="게스트"
         android:textColor="#000000"
         android:textSize="32sp"
-        app:layout_constraintStart_toEndOf="@+id/Profile"
+        app:layout_constraintStart_toEndOf="@+id/profile"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -191,12 +192,12 @@
 
                     <TextView
                         android:id="@+id/movname"
-                        android:layout_width="270"
+                        android:layout_width="270dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:layout_marginLeft="15dp"
                         android:layout_marginTop="35dp"
-                        android:gravity="Left"
+                        android:gravity="left"
                         android:text="TextView"
                         android:textColor="#000000"
                         android:textSize="32sp"
