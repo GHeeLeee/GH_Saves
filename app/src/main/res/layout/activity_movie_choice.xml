@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorw"
     tools:context=".MovieChoiceActivity">
 
     <TextView
@@ -24,9 +25,14 @@
         android:layout_height="100dp"
         android:layout_marginStart="2dp"
         android:layout_marginTop="9dp"
+<<<<<<< Updated upstream
+=======
+        android:drawableTop="@drawable/movie"
+>>>>>>> Stashed changes
         android:drawableTop="@drawable/movie_btn"
         android:gravity="bottom|center_horizontal"
         android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
@@ -35,9 +41,22 @@
         android:layout_width="136dp"
         android:layout_height="100dp"
         android:layout_marginTop="9dp"
+<<<<<<< Updated upstream
         android:drawableTop="@drawable/home_btn"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        android:drawableTop="@drawable/home"
+=======
+        android:drawableTop="@drawable/home_btn"
+>>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
+=======
+        android:drawableTop="@drawable/home_btn"
+>>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
+>>>>>>> Stashed changes
         android:gravity="bottom|center_horizontal"
         android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/movie_btn"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
@@ -46,9 +65,22 @@
         android:layout_width="136dp"
         android:layout_height="100dp"
         android:layout_marginTop="9dp"
+<<<<<<< Updated upstream
         android:drawableTop="@drawable/my_btn"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        android:drawableTop="@drawable/my"
+=======
+        android:drawableTop="@drawable/my_btn"
+>>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
+=======
+        android:drawableTop="@drawable/my_btn"
+>>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
+>>>>>>> Stashed changes
         android:gravity="bottom|center_horizontal"
         android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/home_btn"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
@@ -114,6 +146,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -138,6 +171,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -162,6 +196,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -194,6 +229,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -218,6 +254,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -242,6 +279,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -274,6 +312,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -298,6 +337,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -322,6 +362,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -354,6 +395,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -378,6 +420,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -402,6 +445,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -434,6 +478,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -458,6 +503,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -482,6 +528,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -514,6 +561,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -538,6 +586,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>
@@ -562,6 +611,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
+                        android:textColor="#5A5A5A"
                         android:layout_weight="1"
                         android:text="TextView" />
                 </LinearLayout>

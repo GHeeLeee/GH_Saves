@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< Updated upstream
     tools:context="com.example.movie.HomeActivity">
 
     <Button
@@ -22,6 +23,99 @@
         android:layout_width="136dp"
         android:layout_height="100dp"
         android:layout_marginStart="2dp"
+=======
+    android:background="@color/colorw"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/Home_btn1"
+        android:layout_width="136dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="2dp"
+        android:drawableTop="@drawable/home"
+        android:gravity="bottom|center_horizontal"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Movie_btn"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView4" />
+
+    <Button
+        android:id="@+id/Movie_btn"
+        android:layout_width="136dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="1dp"
+        android:drawableTop="@drawable/movie"
+    tools:context="com.example.movie.HomeActivity">
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="136dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/home_btn"
+        android:drawableTop="@drawable/home_btn"
+        android:gravity="bottom|center_horizontal"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/movie_btn" />
+
+    <Button
+        android:id="@+id/movie_btn"
+        android:layout_width="136dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="2dp"
+        android:contentDescription="@string/movie_btn"
+        android:drawableTop="@drawable/movie_btn"
+        android:gravity="bottom|center_horizontal"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView4" />
+
+    <Button
+        android:id="@+id/My_btn"
+        android:layout_width="136dp"
+        android:layout_height="100dp"
+        android:drawableTop="@drawable/my"
+        android:gravity="bottom|center_horizontal"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Home_btn1"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView4" />
+
+    <View
+        android:id="@+id/MovieLine"
+        android:id="@+id/my_btn"
+        android:layout_width="136dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/my_btn"
+        android:drawableTop="@drawable/my_btn"
+        android:gravity="bottom|center_horizontal"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/home_btn" />
+
+    <View
+        android:id="@+id/movieLine"
+    tools:context="com.example.movie.HomeActivity">
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="136dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/home_btn"
+        android:drawableTop="@drawable/home_btn"
+        android:gravity="bottom|center_horizontal"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/movie_btn" />
+
+    <Button
+        android:id="@+id/movie_btn"
+        android:layout_width="136dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="2dp"
+>>>>>>> Stashed changes
         android:contentDescription="@string/movie_btn"
         android:drawableTop="@drawable/movie_btn"
         android:gravity="bottom|center_horizontal"
@@ -68,8 +162,14 @@
 
             <TextView
                 android:layout_width="409dp"
+<<<<<<< Updated upstream
                 android:layout_height="wrap_content"
                 android:gravity="center"
+=======
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:maxLines="1"
+>>>>>>> Stashed changes
                 android:scrollHorizontally="false"
                 android:text="인기 영화"
                 android:textColor="#FFFFFF"
@@ -118,6 +218,7 @@
         android:layout_marginTop="11dp"
         android:text="예메한 영화"
         android:textSize="18sp"
+        android:textColor="#5A5A5A"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/movieLine" />
 
@@ -128,6 +229,11 @@
         android:layout_marginStart="42dp"
         android:layout_marginTop="16dp"
         android:background="#FFFFFF"
+<<<<<<< Updated upstream
+=======
+        android:src="@drawable/profile"
+        android:src="@drawable/profile_btn"
+>>>>>>> Stashed changes
         android:src="@drawable/profile_btn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -158,6 +264,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
+        android:id="@+id/scrollView4"
         android:layout_width="409dp"
         android:layout_height="237dp"
         android:layout_marginStart="1dp"
@@ -168,7 +275,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -224,8 +331,6 @@
 
 
         </LinearLayout>
-
-
 
 
     </ScrollView>

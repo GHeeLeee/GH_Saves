@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorw"
     tools:context=".AreaChoiceActivity">
 
     <Button
@@ -20,7 +21,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+<<<<<<< HEAD
+        android:id="@+id/ArteView"
+=======
         android:id="@+id/textView"
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
+=======
+>>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
+>>>>>>> Stashed changes
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
@@ -42,7 +53,7 @@
         android:textColor="#000000"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/ArteView" />
 
     <Button
         android:id="@+id/btn1"
