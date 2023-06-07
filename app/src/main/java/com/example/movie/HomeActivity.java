@@ -17,7 +17,7 @@ public class HomeActivity extends AppCompatActivity {
          /*Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);*/
 
-        Button Btn = findViewById(R.id.Movie_btn);
+        Button Btn = findViewById(R.id.movie_btn);
         Btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -29,7 +29,7 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        Button Btn2 = findViewById(R.id.My_btn);
+        Button Btn2 = findViewById(R.id.my_btn);
         Btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -21,17 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-<<<<<<< HEAD
         android:id="@+id/ArteView"
-=======
-        android:id="@+id/textView"
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
->>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
-=======
->>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
->>>>>>> Stashed changes
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"

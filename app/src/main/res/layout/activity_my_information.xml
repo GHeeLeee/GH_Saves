@@ -14,19 +14,7 @@
         android:layout_height="100dp"
         android:layout_marginStart="2dp"
         android:layout_marginTop="9dp"
-<<<<<<< Updated upstream
         android:drawableTop="@drawable/movie_btn"
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        android:drawableTop="@drawable/movie"
-=======
-        android:drawableTop="@drawable/movie_btn"
->>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
-=======
-        android:drawableTop="@drawable/movie_btn"
->>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
->>>>>>> Stashed changes
         android:gravity="bottom|center_horizontal"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,19 +26,7 @@
         android:layout_width="136dp"
         android:layout_height="100dp"
         android:layout_marginTop="9dp"
-<<<<<<< Updated upstream
         android:drawableTop="@drawable/home_btn"
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        android:drawableTop="@drawable/home"
-=======
-        android:drawableTop="@drawable/home_btn"
->>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
-=======
-        android:drawableTop="@drawable/home_btn"
->>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
->>>>>>> Stashed changes
         android:gravity="bottom|center_horizontal"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
@@ -62,19 +38,7 @@
         android:layout_width="136dp"
         android:layout_height="100dp"
         android:layout_marginTop="9dp"
-<<<<<<< Updated upstream
         android:drawableTop="@drawable/my_btn"
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        android:drawableTop="@drawable/my"
-=======
-        android:drawableTop="@drawable/my_btn"
->>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
-=======
-        android:drawableTop="@drawable/my_btn"
->>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
->>>>>>> Stashed changes
         android:gravity="bottom|center_horizontal"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
@@ -101,19 +65,7 @@
         android:layout_marginStart="25dp"
         android:layout_marginTop="37dp"
         android:background="#FFFFFF"
-<<<<<<< Updated upstream
         android:src="@drawable/profile_btn"
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        android:src="@drawable/profile"
-=======
-        android:src="@drawable/profile_btn"
->>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
-=======
-        android:src="@drawable/profile_btn"
->>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
->>>>>>> Stashed changes
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -254,8 +206,6 @@
 
 
         </LinearLayout>
-
-
 
 
     </ScrollView>

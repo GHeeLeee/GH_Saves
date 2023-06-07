@@ -31,7 +31,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-<<<<<<< HEAD
         android:id="@+id/loginView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -102,8 +101,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Loginbtn" />
 
-=======
-        android:id="@+id/logintextView2"
+        <!--android:id="@+id/logintextView2"
         android:layout_width="188dp"
         android:layout_height="33dp"
         android:gravity="center"
@@ -112,12 +110,6 @@
         android:textSize="26sp"
         tools:layout_editor_absoluteX="111dp"
         tools:layout_editor_absoluteY="154dp"
-        tools:ignore="MissingConstraints" />
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
->>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
-=======
->>>>>>> a6a28d6ab4bb83b771e3a106aaef9dd25d703394
->>>>>>> Stashed changes
+        tools:ignore="MissingConstraints" />-->
+
 </androidx.constraintlayout.widget.ConstraintLayout>
