@@ -50,24 +50,28 @@
         android:id="@+id/home_btn"
         android:layout_width="136dp"
         android:layout_height="100dp"
+        android:layout_marginTop="2dp"
         android:contentDescription="@string/home_btn"
         android:drawableTop="@drawable/home_btn"
         android:gravity="bottom|center_horizontal"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/movie_btn" />
+        app:layout_constraintStart_toEndOf="@+id/movie_btn"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView4" />
 
     <Button
         android:id="@+id/movie_btn"
         android:layout_width="136dp"
         android:layout_height="100dp"
         android:layout_marginStart="2dp"
+        android:layout_marginTop="1dp"
         android:contentDescription="@string/movie_btn"
         android:drawableTop="@drawable/movie_btn"
         android:gravity="bottom|center_horizontal"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView4" />
 
     <!--<Button
         android:id="@+id/My_btn"
@@ -122,12 +126,14 @@
         android:id="@+id/my_btn"
         android:layout_width="136dp"
         android:layout_height="100dp"
+        android:layout_marginTop="1dp"
         android:contentDescription="@string/my_btn"
         android:drawableTop="@drawable/my_btn"
         android:gravity="bottom|center_horizontal"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/home_btn" />
+        app:layout_constraintStart_toEndOf="@+id/home_btn"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView4" />
 
     <View
         android:id="@+id/movieLine"

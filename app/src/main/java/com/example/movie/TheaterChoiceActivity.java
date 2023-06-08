@@ -2,7 +2,10 @@ package com.example.movie;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class TheaterChoiceActivity extends AppCompatActivity {
 
@@ -10,5 +13,41 @@ public class TheaterChoiceActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_theater_choice);
+
+        Button Btn = findViewById(R.id.back_btn3);
+        Btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TheaterChoiceActivity.this, CityChoiceActivity.class);
+                startActivity(intent);
+                /*intent.putExtra("name", "mike");
+                setResult(RESULT_OK, intent);
+                finish();*/
+            }
+        });
+
+        Button Btn2 = findViewById(R.id.choicebtn);
+        Btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TheaterChoiceActivity.this, DateChoiceActivity.class);
+                startActivity(intent);
+                /*intent.putExtra("name", "mike");
+                setResult(RESULT_OK, intent);
+                finish();*/
+            }
+        });
+
+        Button Btn3 = findViewById(R.id.choicebtn2);
+        Btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TheaterChoiceActivity.this, DateChoiceActivity.class);
+                startActivity(intent);
+                /*intent.putExtra("name", "mike");
+                setResult(RESULT_OK, intent);
+                finish();*/
+            }
+        });
     }
 }
