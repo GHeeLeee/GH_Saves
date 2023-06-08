@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MovieChoiceActivity extends AppCompatActivity {
 
@@ -42,6 +43,31 @@ public class MovieChoiceActivity extends AppCompatActivity {
                 Intent intent = new Intent(MovieChoiceActivity.this, MovieChoiceActivity.class);
                 finish();
                 startActivity(getIntent());
+                /*intent.putExtra("name", "mike");
+                setResult(RESULT_OK, intent);
+                finish();*/
+            }
+        });
+
+        /*Button Btn2 = findViewById(R.id.my_btn);
+        Btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MovieChoiceActivity.this, MyInformationActivity.class);
+                startActivity(intent);
+
+            }
+        });*/
+
+        TextView Tv = findViewById(R.id.MovieText1_1);
+        Tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MovieChoiceActivity.this, AreaChoiceActivity.class);
+                startActivity(intent);
+                /*intent.putExtra("name", "mike");
+                setResult(RESULT_OK, intent);
+                finish();*/
             }
         });
     }

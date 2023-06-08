@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MyInformationActivity extends AppCompatActivity {
 
@@ -41,8 +42,34 @@ public class MyInformationActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MyInformationActivity.this, HomeActivity.class);
                 startActivity(intent);
+                /*intent.putExtra("name", "mike");
+                setResult(RESULT_OK, intent);
+                finish();*/
             }
         });
 
+
+        /*Button Btn2 = findViewById(R.id.movie_btn);
+        Btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MyInformationActivity.this, MovieChoiceActivity.class);
+                startActivity(intent);
+
+            }
+        });*/
+
+
+        TextView Tv = findViewById(R.id.movname);
+        Tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MyInformationActivity.this, MovieDetailedScreenActivity.class);
+                startActivity(intent);
+                /*intent.putExtra("name", "mike");
+                setResult(RESULT_OK, intent);
+                finish();*/
+            }
+        });
     }
 }
