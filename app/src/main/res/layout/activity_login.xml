@@ -105,7 +105,7 @@
         android:layout_width="188dp"
         android:layout_height="33dp"
         android:gravity="center"
-        android:text="카카오 연동"
+        android:text="카카오 연동s"
         android:textColor="#B4A03B"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="111dp"

@@ -14,30 +14,34 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-         /*Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);*/
 
-        Button Btn = findViewById(R.id.movie_btn);
-        Btn.setOnClickListener(new View.OnClickListener() {
+        Button goto_movie_btn = findViewById(R.id.movie_btn);
+        goto_movie_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(HomeActivity.this, MovieChoiceActivity.class);
                 startActivity(intent);
-                /*intent.putExtra("name", "mike");
-                setResult(RESULT_OK, intent);
-                finish();*/
             }
         });
 
-        Button Btn2 = findViewById(R.id.my_btn);
-        Btn2.setOnClickListener(new View.OnClickListener() {
+        Button goto_my_btn = findViewById(R.id.my_btn);
+        goto_my_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(HomeActivity.this, MyInformationActivity.class);
                 startActivity(intent);
-                /*intent.putExtra("name", "mike");
-                setResult(RESULT_OK, intent);
-                finish();*/
+
+            }
+        });
+
+        Button goto_home_btn = findViewById(R.id.home_btn);
+        goto_home_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // 새로고침
+                Intent intent = new Intent(HomeActivity.this, HomeActivity.class);
+                finish();
+                startActivity(getIntent());
             }
         });
     }
