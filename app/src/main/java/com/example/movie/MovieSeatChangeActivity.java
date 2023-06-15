@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
-public class LoginActivity extends AppCompatActivity {
+public class MovieSeatChangeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,16 +31,13 @@ public class LoginActivity extends AppCompatActivity {
         newUiOptions ^= View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
         getWindow().getDecorView().setSystemUiVisibility(newUiOptions);
 
+        setContentView(R.layout.activity_movie_seat_change);
 
-        setContentView(R.layout.activity_login);
-        /*Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);*/
-
-        Button Btn = findViewById(R.id.Loginbtn);
+        Button Btn = findViewById(R.id.gohomebtn);
         Btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                Intent intent = new Intent(MovieSeatChangeActivity.this, HomeActivity2.class);
                 startActivity(intent);
                 /*intent.putExtra("name", "mike");
                 setResult(RESULT_OK, intent);

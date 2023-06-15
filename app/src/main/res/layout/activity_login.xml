@@ -47,6 +47,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="30dp"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginLine">
 
@@ -69,8 +70,10 @@
         android:layout_height="50dp"
         android:layout_marginTop="190dp"
         android:layout_marginEnd="30dp"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginLine">
+        app:layout_constraintTop_toBottomOf="@+id/loginLine"
+        android:inputType="textPassword">
 
     </EditText>
 
@@ -88,6 +91,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
+    <View
+        android:id="@+id/loginLine1"
+        android:layout_width="351dp"
+        android:layout_height="3dp"
+        android:layout_marginEnd="30dp"
+        android:background="#A8A4A4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
     <Button
         android:id="@+id/Accountbtn"
         android:layout_width="311dp"
@@ -101,15 +113,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Loginbtn" />
 
-        <!--android:id="@+id/logintextView2"
-        android:layout_width="188dp"
-        android:layout_height="33dp"
-        android:gravity="center"
-        android:text="카카오 연동s"
-        android:textColor="#B4A03B"
-        android:textSize="26sp"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="154dp"
-        tools:ignore="MissingConstraints" />-->
+    <View
+        android:id="@+id/loginLine2"
+        android:layout_width="351dp"
+        android:layout_height="3dp"
+        android:layout_marginEnd="30dp"
+        android:background="#A8A4A4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <!--android:id="@+id/logintextView2"
+    android:layout_width="188dp"
+    android:layout_height="33dp"
+    android:gravity="center"
+    android:text="카카오 연동s"
+    android:textColor="#B4A03B"
+    android:textSize="26sp"
+    tools:layout_editor_absoluteX="111dp"
+    tools:layout_editor_absoluteY="154dp"
+    tools:ignore="MissingConstraints" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

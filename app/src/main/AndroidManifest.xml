@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-
+        <activity android:name=".MovieSeatChangeActivity"></activity>
+        <activity android:name=".Preview_H9Activity" />
+        <activity android:name=".SeatChoiceActivity2" />
+        <activity android:name=".HomeActivity2" />
+        <activity android:name=".MovieCompleteActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,26 +23,15 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".HomeActivity" />
-
-        <activity android:name=".Preview_A1Activity"></activity>
+        <activity android:name=".Preview_A1Activity" />
         <activity android:name=".TheaterChoiceActivity" />
         <activity android:name=".CityChoiceActivity" />
-        <activity android:name=".SeatChoiceActivity" />
-        <!-- <activity android:name=".LoginActivity" /> -->
+        <activity android:name=".SeatChoiceActivity" /> <!-- <activity android:name=".LoginActivity" /> -->
         <activity android:name=".AreaChoiceActivity" />
         <activity android:name=".DateChoiceActivity" />
         <activity android:name=".MovieDetailedScreenActivity" />
         <activity android:name=".MyInformationActivity" />
         <activity android:name=".MovieChoiceActivity" />
-        <!--<activity android:name=".HomeActivity" />-->
-        <!--<activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".LoginActivity" />-->
     </application>
 
 </manifest>

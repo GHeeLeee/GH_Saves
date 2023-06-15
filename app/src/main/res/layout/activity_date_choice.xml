@@ -8,13 +8,14 @@
     tools:context=".DateChoiceActivity">
 
 
-    <View
+    <ImageView
         android:id="@+id/view2"
         android:layout_width="98dp"
         android:layout_height="129dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="30dp"
         android:background="#D9D9D9"
+        android:src="@drawable/movie_1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/datetextView" />
 
@@ -72,10 +73,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="29dp"
-        android:layout_marginTop="51dp"
-        android:text="TextView"
+        android:layout_marginTop="46dp"
+        android:text="플래시"
         android:textColor="#000000"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintStart_toEndOf="@+id/view2"
         app:layout_constraintTop_toBottomOf="@+id/datetextView" />
 
@@ -85,7 +86,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="29dp"
         android:layout_marginTop="12dp"
-        android:text="시간 :"
+        android:text="영화관 :"
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/view2"
@@ -96,12 +97,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
-        android:layout_marginTop="86dp"
-        android:text="TextView"
+        android:layout_marginTop="11dp"
+        android:text="배곧"
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/choicemovietext2"
-        app:layout_constraintTop_toBottomOf="@+id/datetextView" />
+        app:layout_constraintTop_toBottomOf="@+id/choicemovietext" />
 
     <TextView
         android:id="@+id/textView4"
@@ -109,7 +110,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
         android:layout_marginTop="12dp"
-        android:text="TextView"
+        android:text="CGV"
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/choicemovietext3"
@@ -121,7 +122,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="29dp"
         android:layout_marginTop="11dp"
-        android:text="영화관 :"
+        android:text="지역 :"
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/view2"
@@ -163,7 +164,144 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="vertical" />
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/daybtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="16일"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/daybtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="17일"
+                android:textColor="#0066FF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/daybtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="18일"
+                android:textColor="#BA0000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/daybtn4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="19일"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/daybtn5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="20일"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/daybtn6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="21일"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/daybtn7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="22일"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/daybtn8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="23일"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/daybtn9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="24일"
+                android:textColor="#0066FF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/daybtn10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="25일"
+                android:textColor="#BA0000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/daybtn11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="26일"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/daybtn12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="27일"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/daybtn13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="28일"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/daybtn14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="29일"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/daybtn15"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:text="30일"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
     </HorizontalScrollView>
 
     <Button
@@ -173,7 +311,7 @@
         android:layout_marginStart="25dp"
         android:layout_marginTop="33dp"
         android:layout_marginEnd="23dp"
-        android:background="#D1CFCF"
+        android:background="#7B7B7B"
         android:text="09:00"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/timebutton2"
@@ -186,7 +324,7 @@
         android:layout_height="51dp"
         android:layout_marginTop="33dp"
         android:layout_marginEnd="23dp"
-        android:background="#D1CFCF"
+        android:background="#7B7B7B"
         android:text="12:00"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/timebutton3"
@@ -198,7 +336,7 @@
         android:layout_height="51dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="25dp"
-        android:background="#D1CFCF"
+        android:background="#7B7B7B"
         android:text="15:00"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -211,7 +349,7 @@
         android:layout_marginStart="25dp"
         android:layout_marginTop="128dp"
         android:layout_marginEnd="23dp"
-        android:background="#D1CFCF"
+        android:background="#7B7B7B"
         android:text="18:00"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/timebutton2"
@@ -225,7 +363,7 @@
         android:layout_height="51dp"
         android:layout_marginTop="128dp"
         android:layout_marginEnd="20dp"
-        android:background="#D1CFCF"
+        android:background="#7B7B7B"
         android:text="21:00"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/timebutton3"
@@ -235,9 +373,9 @@
         android:id="@+id/timebutton6"
         android:layout_width="105dp"
         android:layout_height="51dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="128dp"
         android:layout_marginEnd="24dp"
-        android:background="#D1CFCF"
+        android:background="#7B7B7B"
         android:text="24:00"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"

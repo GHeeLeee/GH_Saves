@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorGray"
-    tools:context=".Preview_A1Activity">
+    tools:context=".Preview_H9Activity">
 
     <Button
         android:id="@+id/back_btn2"
@@ -27,7 +27,7 @@
         android:layout_marginStart="-1dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/back_btn2"
-        app:srcCompat="@drawable/aa" />
+        app:srcCompat="@drawable/h9" />
 
     <TextView
         android:id="@+id/datetextView4"
@@ -36,7 +36,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="3dp"
         android:gravity="center"
-        android:text="좌석 :  A1"
+        android:text="좌석 :  H9"
         android:textColor="#FFFFFF"
         android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,11 +49,10 @@
         android:layout_marginTop="3dp"
         android:layout_marginEnd="30dp"
         android:background="@drawable/button_patter_gray"
-        android:text="좌석예매"
+        android:text="좌석변경"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

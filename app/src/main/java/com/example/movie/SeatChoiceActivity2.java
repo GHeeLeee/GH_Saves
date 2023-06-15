@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
-public class LoginActivity extends AppCompatActivity {
+public class SeatChoiceActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,20 +32,20 @@ public class LoginActivity extends AppCompatActivity {
         getWindow().getDecorView().setSystemUiVisibility(newUiOptions);
 
 
-        setContentView(R.layout.activity_login);
-        /*Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);*/
+        setContentView(R.layout.activity_seat_choice2);
 
-        Button Btn = findViewById(R.id.Loginbtn);
+        Button Btn = findViewById(R.id.seat_btn_H9);
         Btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                Intent intent = new Intent(SeatChoiceActivity2.this, Preview_H9Activity.class);
                 startActivity(intent);
                 /*intent.putExtra("name", "mike");
                 setResult(RESULT_OK, intent);
                 finish();*/
             }
         });
+
+
     }
 }

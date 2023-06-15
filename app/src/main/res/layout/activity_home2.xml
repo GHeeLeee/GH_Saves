@@ -5,46 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorw"
-    tools:context="com.example.movie.HomeActivity">
-    <!--tools:context=".HomeActivity">-->
+    tools:context=".HomeActivity2">
 
-    <!--<Button
-        android:id="@+id/home_btn"
-        android:layout_width="136dp"
-        android:layout_height="100dp"
-        android:contentDescription="@string/home_btn"
-        android:drawableTop="@drawable/home_btn"
-        android:gravity="bottom|center_horizontal"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/movie_btn" />-->
-
-    <!--<Button
-        android:id="@+id/movie_btn"
-        android:layout_width="136dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="2dp"-->
-
-    <!--<Button
-        android:id="@+id/Home_btn1"
-        android:layout_width="136dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="2dp"
-        android:drawableTop="@drawable/home"
-        android:gravity="bottom|center_horizontal"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Movie_btn"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView4" />-->
-
-    <!--<Button
-        android:id="@+id/Movie_btn"
-        android:layout_width="136dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="1dp"
-        android:drawableTop="@drawable/movie"
-    tools:context="com.example.movie.HomeActivity">-->
 
     <Button
         android:id="@+id/home_btn"
@@ -276,7 +238,51 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
+                <ImageView
+                    android:id="@+id/view4"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/movie_1"
+                    android:background="#D9D9D9" />
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/movname"
+                        android:layout_width="270dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="35dp"
+                        android:gravity="left"
+                        android:text="플래시"
+                        android:textColor="#000000"
+                        android:textSize="32sp"
+                        app:layout_constraintStart_toEndOf="@+id/view4"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/movname2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="17dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="0dp"
+                        android:text="2023.06.16    09:00"
+                        android:textColor="#000000"
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toEndOf="@+id/view4"
+                        app:layout_constraintTop_toTopOf="@+id/movname" />
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
